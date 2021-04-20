@@ -1,0 +1,125 @@
+/* Nav */
+
+
+
+/* Login/Registration Page Start Here */
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-card-left {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-card-left h3{
+    text-align: center;
+    color: #333;
+}
+.login-card-right {
+    padding: 5%;
+    background: #0062cc;
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 5px;
+}
+.btnSubmit
+{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.login-card-left .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-card-left .ForgetLD{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-card-right .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-card-right .ForgetLD{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signup-text {
+    margin-top: 10%;
+}
+
+
+
+/*  Register page Section  */
+.form-body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .form-container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=number] {
+    width: 75%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn, .loginbtn {
+    background-color: #0062cc;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    opacity: 0.9;
+  }
+
+  /* Set a style for the submit button */
+  .registerbtn2, .loginbtn2 {
+    background-color: #ffffff;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    opacity: 0.9;
+  }
+
+  .registerbtn:hover, .loginbtn:hover, .registerbtn2:hover, .loginbtn2:hover {
+    opacity: 1;
+  }
+
+/* Login/Registration Page End Here */
+
+/* Form - aligning centre */
+form {
+    text-align: center;
+  }
