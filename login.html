@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- link to Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- link to our custom CSS file to override any Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <title></title>
+</head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav navbar-expand-sm">
+                    <li><a href="banking.html">Banking</a></li>
+                    <li><a href="homeLoans.html">Home Loans</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="insurance.html">Insurance</a></li>
+                    <li><a href="super.html">Super</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </li>
+                    <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container form-body form-container">
+            <form action="/action_page.php">
+                <div class="row container">
+                    <div class="col-md-8 login-card-left">
+                        <h1>Login</h1> 
+                        <input type="text" placeholder="Email" name="email" id="email" required>
+                        <input type="password" placeholder="Password" name="password" id="password" required>
+                        <br>
+                        <button type="submit" class="loginbtn">Login</button>
+                        <br>
+                        <a href="#" text-align="right" >Forget Login Details?</a>
+                    </div>
+                    
+                    <div class="col-md-4 login-card-right signin">
+                        <div>
+                            <img src="images/logo.png" alt="logo" width="auto" height="225"> 
+                        </div>   
+                            
+                        <p>Don't have an account?</p>
+                        <button type="submit" class="registerbtn2">Register</button>        
+                    </div>
+                </div>
+
+              </form>    
+        </div>
+    </body>
+</html>
